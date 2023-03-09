@@ -17,6 +17,7 @@
     --bgFiltroProj: #ebebeb;
     --fgFiltroProj: #5f5f5f;
     --linFiltroProj: #d3d3d3;
+    --destaMenu: #ccc;
 }
 
 *{
@@ -343,7 +344,7 @@ header{
     background-color: rgba(0,0,0,0.7);
     width: inherit;
     height: inherit;
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
     color: var(--destaMenu);
@@ -366,4 +367,43 @@ header{
 .section-projects--photoinfo {
     display: flex;
     cursor: pointer;
+}
+
+/* Seção Profile */
+
+.our-team {
+    text-align: center;
+    background-color: green;
+    background-image: url("../media/foto5.jpg");
+    background-repeat: no-repeat;
+    background-size
+}
+
+.slider-team {
+    display: flex;
+    justify-content: center;
+}
+.slider-team-profile {
+    background-color: red;
+    display: flex;
+    text-decoration: none;
+    text-align: center;
+    width: 303px;
+    padding: 10px;
+    margin: 16px;
+    justify-content: space-around;
+}
+
+.team-social-media {
+    display: flex;
+    width: 200px;
+    justify-content: space-around;
+}
+.team-social-media ul {
+    text-decoration: none;
+}
+.team-social-media img {
+    background-color: #979797;
+    padding: 10px;
+    border-radius: 20px;
 }
